@@ -1,0 +1,140 @@
+/* Element Selector */
+h1{
+    color:aqua;
+    font-size: 20px;
+    font-family: cursive;
+    background-color: blue;
+    text-align: right;
+}
+h2{
+    color:aqua;
+    font-size: 20px;
+    font-family: cursive;
+    background-color: blue;
+    text-align: center;
+}
+h3{
+    color:red;
+    font-size: 20px;
+    font-family: cursive;
+    background-color: green;
+}
+h4{
+    color:red;
+    font-size: 20px;
+    font-family: cursive;
+    background-color: green;
+    text-align: right;
+}
+p1{
+color: blueviolet;
+font-size: 20px;
+font-family:Times New Roman;
+background-color: cadetblue;
+
+}
+p2{
+color: rgb(39, 36, 188);
+font-size: 20px;
+font-family:Times New Roman;
+background-color: cadetblue;
+}
+
+/* Class Selector */
+.center{
+    text-align: center;
+    color:red;
+    background-color: antiquewhite;
+    font-size: 30px;
+}
+.alfa{
+    text-align: right;
+    color:green;
+    background-color: beige;
+    font-size:30px;
+}
+
+/* Id Selector */
+#head1{
+    text-align: center;
+    color:violet;
+    background-color:black;
+    font-size:30px;
+}
+#para1{
+    text-align: right;
+    color:pink;
+    background-color: black;
+    font-size:30px;
+}
+.para3{
+    color:darkorange;
+    background-color:black;
+    font-size:30px;
+}
+.para4{
+    color:lavender;
+    background-color:black;
+    font-size:30px;
+    text-align: right;
+}
+
+/* Universal Selector 
+*{
+    color:darkorange;
+    background-color:white;
+    font-size:30px;
+}
+*/
+
+p7,p8,p9{
+    color:darkorange;
+    text-align: right;
+    background-color:rgb(157, 88, 88);
+    font-size:30px;
+}
+p10,p11,p12{
+    color:orange;
+    background-color:green;
+    font-size:30px;
+}
+body{
+    background-color: lime;
+    background: url(/marguerite-729510__340.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+
+}
+p.dotted{
+    border-style: dotted;
+}
+p.dashed{
+    border-style: dashed;
+}
+p.mix{
+    border-style: double dashed solid double;
+}
+p.solid{
+    border-style: solid;
+}
+p.d{
+    border-style: double;
+}
+p.g{
+    border-style: groove;
+}
+p.r{
+    border-style: ridge;
+}
+p.i{
+    border-style: inset;
+}
+p.o{
+    border-style: outset;
+}
+p.n{
+    border-style: none;
+}
+p.h{
+    border-style: hidden;
+}
